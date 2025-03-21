@@ -16,6 +16,7 @@ datasets = {
 # Define the app layout
 app.layout = html.Div([
     html.H1("Interactive Line & Pie Charts"),
+    server=app.server
     
     # Dropdown for dataset selection
     dcc.Dropdown(
